@@ -14,7 +14,8 @@ require 'pry'
 
 class Calculator
 
-  attr_accessor :start_num
+# not needed since we are initializing and setting start_num instance variable
+# attr_accessor :start_num
 
         def initialize(start_num)
           @start_num = start_num.to_f
